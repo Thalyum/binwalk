@@ -888,6 +888,7 @@
 # Device tree size, may not be less than header size (40)
 >4          ubelong   <40         {invalid}
 >4          ubelong   x               size: %d bytes,
+>4          ubelong   x               {size:%d}
 # Offset of structure block, may not be less than header size (40), must be aligned to 4 byte boundary
 >8          ubelong   <40         {invalid}
 >8          ubelong&3 !0          {invalid}
